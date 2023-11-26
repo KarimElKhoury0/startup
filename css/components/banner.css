@@ -3,17 +3,17 @@
     background-position: center;
     color: black;
     text-align: center;
-    padding: 150px 20px; /* Added padding on the sides for better readability */
+    padding: 150px 20px; 
 }
 
 .banner h1 {
-    margin-bottom: 20px; /* Spacing below the main heading */
+    margin-bottom: 20px; 
 }
 
 .banner h2 {
-    font-weight: normal; /* Removed bold font weight for subheadings */
+    font-weight: normal; 
 }
 
 .banner .button {
-    margin-top: 20px; /* Spacing between subheading and button */
+    margin-top: 20px; 
 }
