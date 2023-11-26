@@ -1,23 +1,22 @@
-/* Importing Google fonts */
 @import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
 
-/* Importing all components files */
+
 @import url("components/avatar.css");
 @import url("components/button.css");
 @import url("components/banner.css");
 @import url("components/contact-form.css");
 
-/* Resetting default margin and padding for all elements */
+
 body, h1, h2, h3, p, ul, li, form {
     margin: 0;
     padding: 0;
 }
 
-/* General style rules for fonts and colors */
+
 body {
     font-family: 'Lora', sans-serif;
     background-color: rgb(240, 240, 240);
-    color: #333; /* Default text color */
+    color: #333; 
 }
 
 h1, h2, h3 {
@@ -26,11 +25,11 @@ h1, h2, h3 {
 
 a {
     text-decoration: none;
-    color: #3498db; /* Link color */
+    color: #3498db; 
 }
 
 a:hover {
-    color: #2980b9; /* Link color on hover */
+    color: #2980b9; 
 }
 
 body {
@@ -65,7 +64,7 @@ li {
 }
 
 .banner.homepage-banner {
-    color: white; /* Text color for the homepage banner */
+    color: white; 
 }
 
 .container {
@@ -84,18 +83,18 @@ footer {
     color: #333;
 }
 
-/* Separate boxes for different sections */
+
 .section-box {
-    margin-bottom: 30px; /* Adjusted spacing between sections */
+    margin-bottom: 30px; 
 }
 
-/* Header styles */
+
 header {
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Navigation styles */
+
 nav ul {
     list-style: none;
     display: flex;
@@ -119,7 +118,7 @@ nav a:hover {
     color: #817f85;
 }
 
-/* Banner styles */
+
 .banner {
     background-size: cover;
     background-position: center;
@@ -128,7 +127,7 @@ nav a:hover {
     padding: 150px 0;
 }
 
-/* Button styles */
+
 .button {
     display: inline-block;
     padding: 15px 30px;
@@ -144,29 +143,29 @@ nav a:hover {
     background-color: rgba(99, 97, 102, 0.8); /* Button background color on hover with transparency */
 }
 
-/* Avatar styles */
+
 .avatar {
     width: 60px;
     height: 60px;
     border-radius: 50%;
 }
 
-/* Team member styles */
+
 .team-member {
     text-align: center;
 }
 
-/* Blog post styles */
+
 .blog-post {
     margin-bottom: 20px;
 }
 
-/* Form styles */
+
 form {
     margin-top: 20px;
 }
 
-/* Footer styles */
+
 footer {
     background-color: #d3d3d3;
     padding: 20px;
@@ -185,7 +184,7 @@ footer li {
     margin-right: 15px;
 }
 
-/* Responsive design for smaller screens */
+
 @media (max-width: 600px) {
     .container {
         padding: 10px;
@@ -200,7 +199,7 @@ footer li {
     }
 }
 
-/* Additional styles for the FAQ section */
+
 .faq {
     margin-top: 30px;
 }
@@ -226,7 +225,7 @@ footer li {
     color: #333;
 }
 
-/* Container styles for FAQ section */
+
 .container.faq {
     max-width: 800px;
     margin: 20px auto;
@@ -235,7 +234,7 @@ footer li {
     border-radius: 8px;
 }
 
-/* Container styles for Contact Form section */
+
 .container.contact-form {
     max-width: 800px;
     margin: 20px auto;
@@ -244,16 +243,16 @@ footer li {
     border-radius: 8px;
 }
 
-/* Additional styles for contact form fields */
+
 form label {
     display: block;
-    margin-bottom: 8px; /* Adjusted margin for labels */
+    margin-bottom: 8px; 
 }
 
 form input,
 form textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 15px; /* Adjusted margin for input and textarea */
+    margin-bottom: 15px;
     box-sizing: border-box;
 }
