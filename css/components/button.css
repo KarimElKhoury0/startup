@@ -1,4 +1,4 @@
-/* Button styles */
+/* make sure the color does not seem too close to backg... */
 .button {
     display: inline-block;
     padding: 15px 20px;
@@ -6,10 +6,10 @@
     color: white;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    background-color: #3498db; /* Corrected button background color */
-    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    background-color: #3498db;
+    transition: background-color 0.3s ease; 
 }
 
 .button:hover {
-    background-color: #2980b9; /* Corrected button background color on hover */
+    background-color: #2980b9; 
 }
